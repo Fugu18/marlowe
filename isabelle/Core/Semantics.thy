@@ -94,6 +94,10 @@ lemma evalNegValue :
   "evalValue env sta (AddValue x (NegValue x)) = 0"
   by auto
 
+lemma evalAddCommutative :
+  "evalValue env sta (AddValue x y) = evalValue env sta (AddValue y x)" 
+  by auto 
+
 lemma evalMulValue :
   "evalValue env sta (MulValue x (Constant 0)) = 0"
   by auto

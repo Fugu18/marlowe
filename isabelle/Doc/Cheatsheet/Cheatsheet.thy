@@ -155,8 +155,8 @@ subsection \<open>References\<close>
 
 text 
 \<open>
-Inside \<^emph>\<open>root.tex\<close> there is a command definition for \<^verbatim>\<open>\secref{}\<close>, which allow us to reference 
-sections labeled using \<^verbatim>\<open>\label{}\<close> (E.g: \secref{sec:cheatsheet}).
+Inside \<^emph>\<open>root.tex\<close> there is a command definition for \<^verbatim>\<open>\secref{sec:cheatsheet}\<close>, which allow us to reference 
+sections labeled using \<^verbatim>\<open>\label{sec:cheatsheet}\<close> (E.g: \secref{sec:cheatsheet}).
 \<close>
 
 section \<open>Definitions \label{sec:definitions}\<close> 
