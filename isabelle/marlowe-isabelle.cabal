@@ -1,0 +1,23 @@
+cabal-version:      2.4
+name:               marlowe-isabelle
+version:            0.1.0.0
+
+-- A short (one-line) description of the package.
+synopsis: Exported version of the Marlowe Semantics using the isabelle proof assitant
+
+
+-- The license under which the package is released.
+license:            BSD-3-Clause
+license-file:       ../LICENSE
+author:             Hernan Rajchert
+maintainer:         hernan.rajchert@iohk.io
+
+extra-source-files:
+    README.md
+
+library
+    hs-source-dirs: generated
+    build-depends:    base ^>=4.16.2.0
+    default-language: Haskell2010
+    exposed-modules:
+        Semantics
